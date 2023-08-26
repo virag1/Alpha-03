@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  #recordButton,
+  #stopButton {
+    margin: 10px;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #recordButton:hover,
+  #stopButton:hover {
+    background-color: #c0392b;
+  }
+  
+  #audio {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  #recordButton:disabled,
+  #stopButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  #recordButton,
+  #stopButton {
+    margin: 10px;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #recordButton:hover,
+  #stopButton:hover {
+    background-color: #c0392b;
+  }
+  
+  #audio {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  #recordButton:disabled,
+  #stopButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
